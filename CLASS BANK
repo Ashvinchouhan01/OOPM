@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class bank {
+int accountnumber;
+char firstname[100];
+char lastname[100];
+public:
+void showinfo()
+{
+  cin>>accountnumber>>firstname>>lastname;
+cout<<acountnumber<<firstname<<lastname;
+}
+};
+ int main()
+{
+bank c,c1,c2;
+c.showinfo();
+c1.showinfo();
+c2.showinfo();
+return 0;
+}
