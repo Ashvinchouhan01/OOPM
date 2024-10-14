@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+class galaxy
+{
+double dfs,gravity;
+public:
+void showinfo()
+{
+cin>>dfs>>gravity;
+cout<<dfs<<endl<<gravity;
+}
+};
+int main()
+{
+galaxy p,p1,p2;
+p.showinfo();
+p1.showinfo();
+p2.showinfo();
+return 0;
+}
