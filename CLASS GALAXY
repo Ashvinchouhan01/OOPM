@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
 class galaxy
-{
+{ 
 double dfs,gravity;
 public:
-void showinfo()
-{
-cin>>dfs>>gravity;
+void showinfo()      
+cin>>dfs>>gravity;  
+
+
 cout<<dfs<<endl<<gravity;
 }
 };
@@ -17,4 +18,7 @@ p.showinfo();
 p1.showinfo();
 p2.showinfo();
 return 0;
+      
 }
+
+
